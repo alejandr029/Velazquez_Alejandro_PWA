@@ -1,0 +1,215 @@
+% Created 2020-04-24 vie 23:03
+% Intended LaTeX compiler: pdflatex
+\documentclass[12pt,a4paper, twosite]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[left=2.00cm, right=2.50cm, top=2.50cm, bottom=2.00cm]{geometry}
+\usepackage{fancyhdr}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO]{\emph{\uppercase{\leftmark}}}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{1.0pt}
+\pagestyle{fancy}
+\date{January 10, 2024.}
+\title{What is pwa?}
+
+\hypersetup{
+ pdfauthor={Velazquez Gonzalez Jesus Alejandro},
+ pdftitle={What is pwa?},
+ pdfkeywords={},
+ pdfsubject={}
+ pdfcreator={Emacs 26.2 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\label{sec:org60390fa}
+
+In this document we will talk about what is a pwa, what are the concepts and information for SOA (Service-Oriented Architecture) and the characteristics from native apps and cross-platform.
+
+
+\subsection{Purpose}
+\label{sec:org434c3ef}
+
+The purpose of this document is to provide a detailed description of the pwa and its characteristics
+and the concepts that are used to create a pwa. then will explain the SOA (Service-Oriented Architecture) and the native apps and cross-platform.
+
+
+\subsection{Acronyms}
+\label{sec:orgb158e36}
+
+In this document, the following  acronyms are utilized:
+\begin{itemize}
+\item HTML: HyperText Markup Language
+\item CSS: Cascading Style Sheets
+\item Js: JavaScript
+\item PWA: Progressive Web App
+\item SOA: Service-Oriented Architecture
+\item AWS: Amazon Web Services
+\item API: Application Programming interface
+\end{itemize}
+
+\subsection{References}
+\label{sec:org62711e0}
+
+\begin{thebibliography}
+{9}
+
+\bibitem{Gillis, A. S.} Gillis, A. S. (2022, December 8)  native app. Software Quality.January 9, 2024, from \url{https://www.techtarget.com/searchsoftwarequality/definition/native-application-native-app}
+
+\bibitem{Fernández, C.} Fernández, C. (2022, March 18). Cross-platform app development. Characteristics. ABAMobile. January 9, 2024, from \url{https://abamobile.com/web/cross-platform-app-development-characteristics/}
+
+\bibitem{AWS} aws (n.d.). what is SOA? - SOA architecture explained. Amazon Web Services, Inc. January 9, 2024, from \url{https://aws.amazon.com/what-is/service-oriented-architecture/}
+
+\bibitem{Vue Storefront} vuestorefront (n.d.). what is PWA? Progressive Web Apps Explained | Vue Storefront. Vue Storefront. January 9, 2024, from \url{https://vuestorefront.io/blog/pwa}
+
+\end{thebibliography}
+
+
+\subsection{Overview of the Document}
+\label{sec:orgdaca22c}
+
+This document explores various aspects related to Progressive Web Apps (PWAs), Service-Oriented Architecture (SOA), as well as native apps and cross-platform development. The discussion will delve into the definition and characteristics of PWAs, essential concepts and information pertaining to SOA, and the distinctions between native applications and cross-platform solutions. By examining these topics, readers will gain insights into the fundamental principles and considerations associated with modern application development across different platforms.
+
+\section{What is PWA?}
+\label{sec:orgc1c4017}
+
+PWA is an app built using web technologies and provides a UX (User Experience). It's like a website can run on multiple platform or devices for a single code, it use Html, css and js.
+
+\subsection{Concepts from pwa}
+\label{sec:org24980a8}
+
+\begin{itemize}
+\item Service Workers:
+  Service workers are a crucial component of PWAs. They are JavaScript scripts that run in the background, separate from the web page, and can handle tasks such as caching, push notifications, and offline functionality. Service workers enable the PWA to work reliably, even with a poor or no network connection.
+
+\item web App Manifest:
+  The web app manifest is a JSON file that provides metadata about the PWA, such as its name, description, icons, and the start URL. This file allows the browser to treat the web app as an installable application and enables features like adding to the home screen.
+
+\item Responsive Design:
+  Responsive design ensures that the PWA adapts and looks good on various devices and screen sizes. CSS media queries and flexible layouts are commonly used to achieve responsive design.
+
+\item HTTPS:
+  PWAs should be served over a secure HTTPS connection to ensure the integrity and security of data transmitted between the user and the server. This is a requirement for many PWA features, including service workers and push notifications.
+
+\item App Shell Architecture:
+  The app shell is the minimal HTML, CSS, and JavaScript needed to render the basic user interface of the PWA. It is loaded first, providing a fast and reliable initial experience, and additional content is loaded dynamically as needed.
+
+\item Caching Strategies:
+  Caching is a key aspect of PWAs, allowing them to work offline and load faster. Developers implement caching strategies using service workers to store and retrieve assets such as images, stylesheets, and scripts.
+
+\item Offline Capabilities:
+  PWAs are designed to provide a seamless user experience even when offline or in poor network conditions. This is achieved through the use of service workers and caching strategies, allowing the app to function without an active internet connection.
+
+\item Push Notifications:
+  Push notifications enable PWAs to send timely updates and engage users, even when the app is not open. Service workers are used to handle and display push notifications.
+
+\item IndexedDB and Local Storage:
+  For storing data on the client side, PWAs leverage technologies like IndexedDB and local storage. These allow the app to persist data and provide offline functionality.
+
+\item Cross-Browser Compatibility:
+  PWAs are designed to work across various browsers, and developers ensure compatibility by using standardized web APIs and features supported by most modern browsers.
+
+\item Automatic Updates:
+  PWAs can update themselves automatically, ensuring that users always have the latest version without needing manual intervention. This is achieved through service workers and the use of a cache update strategy.
+\end{itemize}
+
+
+\section{SOA (Service-Oriented Architecture)}
+\label{sec:org40573d1}
+
+Service-directed architecture (SOA) is a program development procedure that uses program elements called services to produce business applications.Developers use SOA to reuse services on different systems or combine several independent services to do complicated tasks. SOA is a type of architecture that allows applications to be built using a collection of services that communicate with each other. This communication can involve either simple data passing or it could involve two or more services coordinating some activity. Some means of connecting services to each other is needed.
+
+\subsection{advantages}
+\label{sec:orgb8b6b9e}
+SOA has the following advantages:
+\begin{enumerate}
+\item SOA is independent of vendors, products and technologies.
+\item based on open standards.
+\item based on the concept of loose coupling.
+\item based on the concept of reuse.
+\item based on the concept of interoperability.
+\item based on the concept of modularity.
+\end{enumerate}
+
+
+\subsection{disadvantages}
+\label{sec:orgb8b6b9a}
+SOA has the following disadvantages:
+\begin{enumerate}
+
+\item SOA is complex.
+\item SOA is expensive.
+\item difficult to implement.
+\item difficult to manage.
+\item difficult to test.
+\item difficult to secure.
+\end{enumerate}
+
+
+
+\section{Native app and Cross-platform}
+\label{sec:orgb8b6b9b}
+
+\subsection{Native app}
+\label{sec:orgb8b6b9c}
+A native application is a software application that developers create specifically for a particular platform. Since developers design a native app for a specific device and its operating system, it can leverage the device's unique hardware and software features. Native apps can provide optimized performance and take advantage of the latest technology, such as a GPS, compared to web apps or mobile cloud apps developed to be generic across multiple systems.
+
+\subsection*{Native app characteristics}
+\label{sec:orgb8b6b2b}
+
+\begin{itemize}
+\item Native apps are developed for a specific platform, such as Android, iOS, Windows, or Blackberry.
+\item Native apps are written in a programming language specific to the platform they're being developed for.
+\item Native apps can take advantage of the latest technology available on mobile devices such as a global positioning system (GPS) and camera.
+\item Native apps can be downloaded from app stores (such as the Apple App Store or Google Play Store) and installed on mobile devices.
+\item Native apps can be used without an internet connection.
+\end{itemize}
+
+\subsection{Cross-platform}
+\label{sec:orgb8b6b9d}
+Cross-platform software is a type of software application that is compatible with multiple operating systems. It is not specific to a single platform or device. Cross-platform software runs on multiple systems, such as Windows, Mac OS X, and Linux. Cross-platform software may also be referred to as multi-platform software or platform-independent software.
+
+\subsection*{Cross-platform characteristics}
+\begin{itemize}
+  \item Cross-platform software is compatible with multiple operating systems.
+  \item Cross-platform software can run on Windows, Mac OS X, and Linux.
+  \item Cross-platform software may also be referred to as multi-platform software or platform-independent software.
+  \item Cross-platform software can be written in a variety of programming languages.
+\item Cross-platform software can be downloaded from the internet and installed on a computer.
+\end{itemize}
+
+
+
+
+\newpage
+
+
+\section{Appendices}
+\label{sec:org75cea03}
+
+
+Progressive Web Apps (PWAs) represent a type of application software delivered through the web. This section provides a detailed exploration of what defines a PWA. It also explains the benefits of PWAs and how they compare to other types of applications.
+
+Explore the fundamental concepts associated with Progressive Web Apps, including their characteristics and advantages.
+
+
+\end{document}
