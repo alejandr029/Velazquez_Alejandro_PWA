@@ -52,6 +52,25 @@ In this document we will talk about what is a pwa, what are the concepts and inf
 The purpose of this document is to provide a detailed description of the pwa and its characteristics
 and the concepts that are used to create a pwa. then will explain the SOA (Service-Oriented Architecture) and the native apps and cross-platform.
 
+\subsection{Ámbito del sistema}
+\label{sec:org12e44a1}
+
+En esta subseccion:
+
+\begin{itemize}
+\item Se podrá dar un nombre al futuro sistema (p.ej. MiSistema)
+
+\item Se explicará lo que el sistema hará y lo que no hará.
+
+\item Se describirán los beneficios, objetivos y metas que se espera
+alcanzar con el futuro sistema.
+
+\item Se referenciarán todos aquellos documentos de nivel superior (p.e en
+Industria de sistemas, que incluyen hardware y software, deberían
+mantenerse la consistencia con el documento de especificaciones de
+requisitos globales del sistema, si existe)
+\end{itemize}
+
 
 \subsection{Acronyms}
 \label{sec:orgb158e36}
@@ -89,47 +108,151 @@ In this document, the following  acronyms are utilized:
 
 This document explores various aspects related to Progressive Web Apps (PWAs), Service-Oriented Architecture (SOA), as well as native apps and cross-platform development. The discussion will delve into the definition and characteristics of PWAs, essential concepts and information pertaining to SOA, and the distinctions between native applications and cross-platform solutions. By examining these topics, readers will gain insights into the fundamental principles and considerations associated with modern application development across different platforms.
 
-\section{What is PWA?}
+\section{General Desciptions / what is PWA?}
 \label{sec:orgc1c4017}
 
 PWA is an app built using web technologies and provides a UX (User Experience). It's like a website can run on multiple platform or devices for a single code, it use Html, css and js.
 
-\subsection{Concepts from pwa}
+\subsection{Perspective products}
 \label{sec:org24980a8}
 
+Offer a cutting-edge approach to web development. They blend the best of both web and native applications, providing users with a seamless, app-like experience. PWAs are designed to be responsive, reliable, and fast, allowing users to access content even in low-network conditions. They leverage service workers for offline functionality, enabling users to interact with the app without an internet connection. 
+
+
+\subsection{Product functionality}
+\label{sec:orgaf51da6}
+
+PWAs come packed with powerful functionalities that enhance the user experience. Here's a glimpse:
+
 \begin{itemize}
-\item Service Workers:
-  Service workers are a crucial component of PWAs. They are JavaScript scripts that run in the background, separate from the web page, and can handle tasks such as caching, push notifications, and offline functionality. Service workers enable the PWA to work reliably, even with a poor or no network connection.
+  \item Offline Functionality: Thanks to service workers, PWAs can work offline, allowing users to access content and features even when they're not connected to the internet.
 
-\item web App Manifest:
-  The web app manifest is a JSON file that provides metadata about the PWA, such as its name, description, icons, and the start URL. This file allows the browser to treat the web app as an installable application and enables features like adding to the home screen.
+  \item Responsive Design: PWAs are built to adapt to various screen sizes and devices, ensuring a consistent and optimal experience on desktops, tablets, and smartphones.
+  
+  \item App-Like Interactions: PWAs mimic the feel of native apps, offering smooth transitions, gestures, and interactions, creating a more immersive and engaging user interface.
+\end{itemize}
 
-\item Responsive Design:
-  Responsive design ensures that the PWA adapts and looks good on various devices and screen sizes. CSS media queries and flexible layouts are commonly used to achieve responsive design.
 
-\item HTTPS:
-  PWAs should be served over a secure HTTPS connection to ensure the integrity and security of data transmitted between the user and the server. This is a requirement for many PWA features, including service workers and push notifications.
+\subsection{User characteristics}
+\label{sec:orga40b0ee}
 
-\item App Shell Architecture:
-  The app shell is the minimal HTML, CSS, and JavaScript needed to render the basic user interface of the PWA. It is loaded first, providing a fast and reliable initial experience, and additional content is loaded dynamically as needed.
+Users of Progressive Web Applications (PWAs) typically appreciate the following characteristics:
 
-\item Caching Strategies:
-  Caching is a key aspect of PWAs, allowing them to work offline and load faster. Developers implement caching strategies using service workers to store and retrieve assets such as images, stylesheets, and scripts.
+\begin{itemize}
+  \item Accessibility: PWAs are easily accessible through web browsers, eliminating the need for app store downloads. Users can simply visit the website and enjoy the PWA experience.
 
-\item Offline Capabilities:
-  PWAs are designed to provide a seamless user experience even when offline or in poor network conditions. This is achieved through the use of service workers and caching strategies, allowing the app to function without an active internet connection.
+  \item Cross-Platform Compatibility: PWAs work on various devices and operating systems, providing a consistent experience across desktops, tablets, and smartphones. This versatility appeals to users with diverse devices.
+\end{itemize}
 
-\item Push Notifications:
-  Push notifications enable PWAs to send timely updates and engage users, even when the app is not open. Service workers are used to handle and display push notifications.
 
-\item IndexedDB and Local Storage:
-  For storing data on the client side, PWAs leverage technologies like IndexedDB and local storage. These allow the app to persist data and provide offline functionality.
+\subsection{Restrictins}
+\label{sec:org5ca5790}
 
-\item Cross-Browser Compatibility:
-  PWAs are designed to work across various browsers, and developers ensure compatibility by using standardized web APIs and features supported by most modern browsers.
+While Progressive Web Applications (PWAs) offer a range of benefits, they do have some limitations and restrictions:
 
-\item Automatic Updates:
-  PWAs can update themselves automatically, ensuring that users always have the latest version without needing manual intervention. This is achieved through service workers and the use of a cache update strategy.
+\begin{itemize}
+  
+
+  \item Limited Access to Device Features: PWAs have restricted access to certain device features, such as contacts, SMS, and some hardware functionalities. This limitation is in place to ensure user privacy and security.
+
+  \item Dependence on Browser Support: The success of PWAs relies on browser support for certain features. While major browsers widely support PWAs, some functionalities may not be uniformly available across all platforms.
+
+\end{itemize}
+
+
+\subsection{Assumptions and dependencies}
+\label{sec:org0ae23fe}
+
+In the development and implementation of Progressive Web Applications (PWAs), several assumptions and dependencies are crucial for success:
+
+\begin{itemize}
+  \item Browser Compatibility: PWAs depend on browsers supporting the necessary features and functionalities. Developers must consider browser compatibility when creating PWAs to ensure a consistent user experience.
+  
+  \item Network Conditions: Assumptions about users having consistent or intermittent internet connectivity influence the design of offline capabilities in PWAs. The effectiveness of service workers and caching strategies depends on the reliability of network conditions.
+\end{itemize}
+
+\subsection{Future requirements}
+\label{sec:org33cfcdb}
+
+Predicting the future of technology can be tricky, but there are certain trends and potential requirements that may shape the future of Progressive Web Applications like Enhanced Offline Capabilities: As user expectations grow, future PWAs may offer even more advanced offline capabilities. This could include richer offline experiences, improved background synchronization, and better handling of intermittent connectivity.
+
+\subsection{Concepts from pwa}
+\label{sec:org24980a9}
+
+\begin{itemize}
+  \item Service Workers:
+    Service workers are a crucial component of PWAs. They are JavaScript scripts that run in the background, separate from the web page, and can handle tasks such as caching, push notifications, and offline functionality. Service workers enable the PWA to work reliably, even with a poor or no network connection.
+  
+  \item web App Manifest:
+    The web app manifest is a JSON file that provides metadata about the PWA, such as its name, description, icons, and the start URL. This file allows the browser to treat the web app as an installable application and enables features like adding to the home screen.
+  
+  \item Responsive Design:
+    Responsive design ensures that the PWA adapts and looks good on various devices and screen sizes. CSS media queries and flexible layouts are commonly used to achieve responsive design.
+  
+  \item HTTPS:
+    PWAs should be served over a secure HTTPS connection to ensure the integrity and security of data transmitted between the user and the server. This is a requirement for many PWA features, including service workers and push notifications.
+  
+  \item App Shell Architecture:
+    The app shell is the minimal HTML, CSS, and JavaScript needed to render the basic user interface of the PWA. It is loaded first, providing a fast and reliable initial experience, and additional content is loaded dynamically as needed.
+  
+  \item Caching Strategies:
+    Caching is a key aspect of PWAs, allowing them to work offline and load faster. Developers implement caching strategies using service workers to store and retrieve assets such as images, stylesheets, and scripts.
+  
+  \item Offline Capabilities:
+    PWAs are designed to provide a seamless user experience even when offline or in poor network conditions. This is achieved through the use of service workers and caching strategies, allowing the app to function without an active internet connection.
+  
+  \item Push Notifications:
+    Push notifications enable PWAs to send timely updates and engage users, even when the app is not open. Service workers are used to handle and display push notifications.
+  
+  \item IndexedDB and Local Storage:
+    For storing data on the client side, PWAs leverage technologies like IndexedDB and local storage. These allow the app to persist data and provide offline functionality.
+  
+  \item Cross-Browser Compatibility:
+    PWAs are designed to work across various browsers, and developers ensure compatibility by using standardized web APIs and features supported by most modern browsers.
+  
+  \item Automatic Updates:
+    PWAs can update themselves automatically, ensuring that users always have the latest version without needing manual intervention. This is achieved through service workers and the use of a cache update strategy.
+  \end{itemize}
+
+\section{Specific Requirements for PWAs}
+\label{sec:org40573d1}
+
+
+\subsection{External Interfaces}
+\label{sec:orgfd5391f}
+
+\begin{itemize}
+  \item Browser Compatibility: Ensure seamless functionality across major web browsers to guarantee a consistent user experience.
+  \item API Integration: Implement interfaces with external services or APIs for enhanced functionality and data exchange.
+
+\end{itemize}
+
+\subsection{Functions}
+\label{sec:org307bb59}
+
+\begin{itemize}
+  \item Offline Capabilities: Develop robust offline features utilizing service workers to enable users to access content without an internet connection.
+  \item Push Notifications: Implement a system for timely push notifications to engage users and keep them informed.
+
+\end{itemize}
+
+\subsection{Performance Requirements}
+\label{sec:org94bc543}
+
+\begin{itemize}
+  \item Loading Speed: Optimize performance for quick loading times, focusing on efficient data fetching and rendering.
+  \item  Responsiveness: Ensure a responsive design to provide a smooth user experience across various devices and screen sizes.
+
+\end{itemize}
+
+
+\subsection{Design Constraints}
+\label{sec:org49fe900}
+
+\begin{itemize}
+  \item Security Measures: Adhere to HTTPS standards for secure data transmission, maintaining a secure connection.
+  \item Browser Limitations: Consider and work around limitations imposed by different browsers to provide a consistent experience.
+
 \end{itemize}
 
 
@@ -163,8 +286,6 @@ SOA has the following disadvantages:
 \item difficult to test.
 \item difficult to secure.
 \end{enumerate}
-
-
 
 \section{Native app and Cross-platform}
 \label{sec:orgb8b6b9b}

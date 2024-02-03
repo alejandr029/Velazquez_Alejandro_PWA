@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.9)  2 FEB 2024 20:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2024.1.9)  2 FEB 2024 19:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/X1 Yoga/Desktop/proyect_personal/files/Velazquez_Alejandro_Portafolio/Alejandro_Portafolio/avance_1/1.-What_is_pwa/Pwa.tex"
-(c:/Users/X1 Yoga/Desktop/proyect_personal/files/Velazquez_Alejandro_Portafolio/Alejandro_Portafolio/avance_1/1.-What_is_pwa/Pwa.tex
+**"c:/Users/X1 Yoga/Desktop/proyect_personal/files/Velazquez_Alejandro_Portafolio/Alejandro_Portafolio/avance_1/notes/Notes.tex"
+(c:/Users/X1 Yoga/Desktop/proyect_personal/files/Velazquez_Alejandro_Portafolio/Alejandro_Portafolio/avance_1/notes/Notes.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
 (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -311,12 +311,12 @@ Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
 \f@nch@O@erf=\skip67
 \f@nch@O@olf=\skip68
 \f@nch@O@orf=\skip69
-)
-
-Package fancyhdr Warning: \fancyhead's `E' option without twoside option is useless.
-(fancyhdr)                Please consider using the `twoside' option on input line 19.
-
-(C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2022-07-02 v1.5u LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks30
+\verbatim@line=\toks31
+\verbatim@in@stream=\read2
+) (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count294
 \l__pdf_internal_box=\box63
@@ -325,31 +325,27 @@ File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 LaTeX Warning: Unused global option(s):
     [twosite].
 
-(Pwa.aux
+(Notes.aux)
+\openout1 = `Notes.aux'.
 
-LaTeX Warning: Label `sec:org40573d1' multiply defined.
-
-)
-\openout1 = `Pwa.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
  (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count295
@@ -357,22 +353,22 @@ LaTeX Font Info:    ... okay on input line 34.
 \scratchbox=\box64
 \nofMPsegments=\count296
 \nofMParguments=\count297
-\everyMPshowfont=\toks30
+\everyMPshowfont=\toks32
 \MPscratchCnt=\count298
 \MPscratchDim=\dimen171
 \MPnumerator=\count299
 \makeMPintoPDFobject=\count300
-\everyMPtoPDFconversion=\toks31
+\everyMPtoPDFconversion=\toks33
 ) (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 34.
- (Pwa.out) (Pwa.out)
+Package hyperref Info: Link coloring OFF on input line 32.
+ (Notes.out) (Notes.out)
 \@outlinefile=\write3
-\openout3 = `Pwa.out'.
+\openout3 = `Notes.out'.
 
 
 *geometry* driver: auto-detecting
@@ -409,23 +405,31 @@ Package hyperref Info: Link coloring OFF on input line 34.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 37.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
  (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 LaTeX Warning: No \author given.
 
-[1
-
-{C:/Users/X1 Yoga/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (Pwa.toc)
+(Notes.toc)
 \tf@toc=\write4
-\openout4 = `Pwa.toc'.
+\openout4 = `Notes.toc'.
 
+ [1
+
+{C:/Users/X1 Yoga/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 42.
+ (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+Overfull \hbox (18.23541pt too wide) in paragraph at lines 43--43
+[]  \T1/cmtt/m/n/12 // Calculate the volume of a prism using parameters length, width, and height 
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -435,27 +439,23 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 95.
- (C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-Underfull \hbox (badness 5607) in paragraph at lines 95--96
-[]\T1/cmr/m/n/12 Gillis, A. S. (2022, De-cem-ber 8) na-tive app. Soft-ware Qual-ity.January 9,
+Overfull \hbox (24.4089pt too wide) in paragraph at lines 81--81
+[]  \T1/cmtt/m/n/12 // Define a named function sum and an anonymous function sumaEnoy for addition 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-\T1/cmr/m/n/12 2024, from []$\T1/cmtt/m/n/12 https : / / www . techtarget . com / searchsoftwarequality / definition /
+Overfull \hbox (42.92938pt too wide) in paragraph at lines 89--89
+[]  \T1/cmtt/m/n/12 // Print the result of the named function sum and the anonymous function sumaEnoy[] 
  []
 
 
-Underfull \hbox (badness 6188) in paragraph at lines 97--98
-[]\T1/cmr/m/n/12 Fernández, C. (2022, March 18). Cross-platform app de-vel-op-ment. Char-ac-
+Overfull \hbox (30.5824pt too wide) in paragraph at lines 111--111
+[]  \T1/cmtt/m/n/12 // Define a function say and call it recursively with decreasing times argument[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-\T1/cmr/m/n/12 ter-is-tics. ABAMo-bile. Jan-uary 9, 2024, from []$\T1/cmtt/m/n/12 https : / / abamobile . com / web /
+Overfull \hbox (42.92938pt too wide) in paragraph at lines 120--120
+[]  \T1/cmtt/m/n/12 // Assign the say function to saysay, then try to call the undefined say function[] 
  []
 
 
@@ -466,13 +466,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-[]\T1/cmr/m/n/12 aws (n.d.). what is SOA? - SOA ar-chi-tec-ture ex-plained. Ama-zon Web
+Overfull \hbox (55.27637pt too wide) in paragraph at lines 138--138
+[]  \T1/cmtt/m/n/12 // Call the persons function with various arguments including an anonymous function[] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--100
-\T1/cmr/m/n/12 Ser-vices, Inc. Jan-uary 9, 2024, from []$\T1/cmtt/m/n/12 https : / / aws . amazon . com / what-[]is /
+Overfull \hbox (18.23541pt too wide) in paragraph at lines 151--151
+[]  \T1/cmtt/m/n/12 // Define a function foo with a callArg parameter, call recursively with true[] 
  []
 
 
@@ -483,8 +483,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [4]
-Overfull \hbox (4.08128pt too wide) in paragraph at lines 183--185
-[]\T1/cmr/m/n/12 Service Work-ers: Ser-vice work-ers are a cru-cial com-po-nent of PWAs. They are JavaScript
+Overfull \hbox (135.53177pt too wide) in paragraph at lines 205--205
+[]      \T1/cmtt/m/n/12 console.log("userId "+ element.userId + "--- id "+ element.id+ "--- title " + element.title)[] 
  []
 
 
@@ -495,6 +495,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [5]
+Overfull \hbox (5.88843pt too wide) in paragraph at lines 237--237
+[]  \T1/cmtt/m/n/12 // Perform a POST request with Axios, sending data and logging the response[] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -502,62 +506,26 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[6]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[7]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[8]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[9]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[10] (Pwa.aux)
+[6] (Notes.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `Pwa.out' has not changed.
-(rerunfilecheck)             Checksum: 5CEBCF20E1E27DBA0D759726A123C28D;3864.
+Package rerunfilecheck Info: File `Notes.out' has not changed.
+(rerunfilecheck)             Checksum: 52A01F893D0E727F982B2480C7CABBDB;715.
  ) 
 Here is how much of TeX's memory you used:
- 11090 strings out of 475248
- 170566 string characters out of 5756834
- 1929785 words of memory out of 5000000
- 32389 multiletter control sequences out of 15000+600000
- 572153 words of font info for 76 fonts, out of 8000000 for 9000
+ 11031 strings out of 475248
+ 170001 string characters out of 5756834
+ 1928785 words of memory out of 5000000
+ 32372 multiletter control sequences out of 15000+600000
+ 571953 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,742b,554s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
-Output written on Pwa.pdf (10 pages, 148915 bytes).
+ 75i,11n,79p,423b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecsl1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk>
+Output written on Notes.pdf (6 pages, 75075 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
- 209 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 267 PDF objects out of 1000 (max. 8388607)
+ 14 named destinations out of 1000 (max. 500000)
+ 49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
-PWD c:\Users\X1 Yoga\Desktop\proyect_personal\files\Velazquez_Alejandro_Portafolio\Alejandro_Portafolio\avance_1\1.-What_is_pwa
+PWD c:\Users\X1 Yoga\Desktop\proyect_personal\files\Velazquez_Alejandro_Portafolio\Alejandro_Portafolio\avance_1\notes
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\X1 Yoga\Desktop\proyect_personal\files\Velazquez_Alejandro_Portafolio\Alejandro_Portafolio\avance_1\1.-What_is_pwa\Pwa.tex
-OUTPUT Pwa.log
+INPUT c:\Users\X1 Yoga\Desktop\proyect_personal\files\Velazquez_Alejandro_Portafolio\Alejandro_Portafolio\avance_1\notes\Notes.tex
+OUTPUT Notes.log
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\base\size12.clo
@@ -126,12 +126,14 @@ INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\geometry\geometry.cfg
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\fancyhdr\fancyhdr.sty
+INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\tools\verbatim.sty
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
-INPUT .\Pwa.aux
-INPUT .\Pwa.aux
-INPUT Pwa.aux
-OUTPUT Pwa.aux
+INPUT .\Notes.aux
+INPUT .\Notes.aux
+INPUT Notes.aux
+OUTPUT Notes.aux
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -140,14 +142,14 @@ INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epst
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT .\Pwa.out
-INPUT .\Pwa.out
-INPUT Pwa.out
-INPUT Pwa.out
-OUTPUT Pwa.pdf
-INPUT .\Pwa.out
-INPUT .\Pwa.out
-OUTPUT Pwa.out
+INPUT .\Notes.out
+INPUT .\Notes.out
+INPUT Notes.out
+INPUT Notes.out
+OUTPUT Notes.pdf
+INPUT .\Notes.out
+INPUT .\Notes.out
+OUTPUT Notes.out
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm2074.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1440.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
@@ -167,12 +169,11 @@ INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\amsfonts\umsb.fd
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1728.tfm
-INPUT .\Pwa.toc
-INPUT .\Pwa.toc
-INPUT Pwa.toc
+INPUT .\Notes.toc
+INPUT .\Notes.toc
+INPUT Notes.toc
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1200.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -191,32 +192,28 @@ INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\s
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
-OUTPUT Pwa.toc
-INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecti1200.tfm
+OUTPUT Notes.toc
+INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecbx1440.tfm
-INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1200.tfm
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\tex\latex\base\t1cmtt.fd
 INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ectt1200.tfm
-INPUT Pwa.aux
-INPUT .\Pwa.out
-INPUT .\Pwa.out
+INPUT C:\Users\X1 Yoga\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\ecsl1200.tfm
+INPUT Notes.aux
+INPUT .\Notes.out
+INPUT .\Notes.out
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ectt1200.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1200.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1440.pk
+INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
+INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecsl1200.pk
+INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
+INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1200.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecbx1728.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecti1200.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1200.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
-INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm1440.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
 INPUT C:\Users\X1 Yoga\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\ecrm2074.pk
