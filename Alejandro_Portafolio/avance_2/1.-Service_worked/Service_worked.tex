@@ -1,0 +1,110 @@
+% Created 2020-04-24 vie 23:03
+% Intended LaTeX compiler: pdflatex
+\documentclass[12pt,a4paper, twosite]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[left=2.00cm, right=2.50cm, top=2.50cm, bottom=2.00cm]{geometry}
+\usepackage{fancyhdr}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO]{\emph{\uppercase{\leftmark}}}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{1.0pt}
+\pagestyle{fancy}
+\date{Frebruary 29, 2024.}
+\title{Service Worker}
+
+\hypersetup{
+ pdfauthor={Velazquez Gonzalez Jesus Alejandro},
+ pdftitle={Service Worker},
+ pdfkeywords={},
+ pdfsubject={}
+ pdfcreator={Emacs 26.2 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\label{sec:org60390fa}
+
+In this document we will talk about for the Service worker, and how to use it in the development of a PWA (Progressive Web App), and the concepts that are used to create a PWA.
+
+\subsection{Purpose}
+\label{sec:org434c3ef}
+
+The purpose of this document is to provide a detailed description of the Service Worker and its characteristics.
+
+\subsection{References}
+\label{sec:org62711e0}
+
+\begin{thebibliography}
+{9}
+
+\bibitem{Service Worker API - Web APIs} Service Worker API - Web APIs(2024, 8 febrero) MDN Web Docs.Frebruary 29, 2024, from \url{https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API}
+
+\bibitem{Educative. } Educative.  (2022, March 18). Educative Answers - Trusted Answers to Developer Questions. Frebruary 29, 2024, from \url{https://www.educative.io/answers/what-are-the-pros-and-cons-of-using-service-workers-in-pwas}
+
+
+\end{thebibliography}
+
+
+\section{Service Worker}
+\label{sec:orgc1c4017}
+
+\subsection{What is service worker?}
+\label{sec:org24980a8}
+
+Service worker is a script that runs in the backgrount of the browser or web application, separate from a web page, opening the door to features that don't need a web page or user interaction. and is designed to handle tasks like network requests, caching, and push notifications. Service workers are the backbone of PWA, and they enable the creation of reliable, fast, and engaging web applications. They are event-driven and can control the web page or app it is associated with, intercepting and modifying navigation and resource requests, and caching resources for offline use.
+
+\subsection{Advantage and Disadvantage}
+\label{sec:orgf3e3e4e}
+the services worker has a many advantages and disadvantages, this represent if functionabiliry and some of them are:
+
+\subsubsection{Advantages}
+\label{sec:orgf3e3e5e}
+\begin{itemize}
+  \item \textbf{Offline support:} It can cache resources, allowing the web application to work offline or in low-quality networks.
+  \item \textbf{Background Processing:} It runed in the background, separate from the main thread, so it is not affected by the user interface and allowing them to perform tasks independently of the user interaction with the web page.
+  \item \textbf{Push notifications:} It can receive push notifications from a server, even when the web application is not open.
+\end{itemize}
+
+\subsubsection{Disadvantages}
+\label{sec:orgf3e3e6e}
+\begin{itemize}
+  \item \textbf{Browser support:} Not all browsers support service workers, so it is necessary to check the compatibility of the browser.
+  \item \textbf{Complexity:} It is a complex technology, so it is necessary to have a good understanding of the technology to use it.
+\end{itemize}
+
+\subsection{how to use service worker?}
+\label{sec:orgf3e3e7}
+
+Service workers are used when you want to create a PWA, and you want to have offline support, background processing, and push notifications.
+the following example steps are used to create a PWA with service worker:
+
+\begin{enumerate}
+  \item Create a new file called service-worker.js
+  \item Register the service worker in the main file of the web application.
+  \item Add the logic to the service worker to cache the resources and handle the push notifications.
+  \item Test the web application in different browsers to check the compatibility.
+  
+\end{enumerate}
+
+
+
+\end{document}
