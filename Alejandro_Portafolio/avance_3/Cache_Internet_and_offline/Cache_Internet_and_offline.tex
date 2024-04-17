@@ -1,0 +1,100 @@
+
+\documentclass[12pt,a4paper, twosite]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[left=2.00cm, right=2.50cm, top=2.50cm, bottom=2.00cm]{geometry}
+\usepackage{fancyhdr}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO]{\emph{\uppercase{\leftmark}}}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{1.0pt}
+\pagestyle{fancy}
+\date{March 20, 2024.}
+\title{Cache with internet and offline mode}
+
+\hypersetup{
+ pdfauthor={Velazquez Gonzalez Jesus Alejandro},
+ pdftitle={Cache with internet and offline mode},
+ pdfkeywords={},
+ pdfsubject={}
+ pdfcreator={Emacs 26.2 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\label{sec:org60390fa}
+
+In this document we will talk about for the cache and how can use it with inernet then offline mode in a PWA, and it strategy to improve the performance of the web application.
+
+\subsection{Purpose}
+\label{sec:org434c3ef}
+
+The purpose of this document is to provide a detailed description of the cache and how can use it with internet and the function can use it to develop a functionabiliry in offline mode.
+
+\subsection{References}
+\label{sec:org62711e0}
+
+\begin{thebibliography}
+{9}
+
+\bibitem{Caching - Progressive web apps} MDN (2023, October 25) MDN Web Docs.  \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching}
+
+\bibitem{Making PWAs work offline with Service workers - Progressive web apps} MDN (2023, November 29). MDN Web Docs.  \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Tutorials/js13kGames/Offline_Service_workers}
+
+
+\end{thebibliography}
+
+
+\section{Cache with internet}
+\label{sec:orgc1c4017}
+the cache is crucial concept for a web Development that enhaces the user expirence by optimizing data retrieval and application performance. The cache is a temporary storage location that stores copies of frequently accessed data that is used to reduce the time it takes to access the data. The cache is stored in the browser and can be accessed by the service worker. The cache is used to store assets such as images, CSS, and JavaScript files that are
+
+\subsection{benefits of cache}
+\label{sec:org2498090}
+
+\begin{itemize}
+  \item Cached resources can be served immediately from the local storage, bypassing the need to fetch them over the network, thus reducing latency and improving page load times.
+  \item  By caching critical assets, web applications can continue to function even when the device is offline or experiencing network disruptions. Users can still access content and perform essential tasks, enhancing the overall usability of the application.
+  \item Caching minimizes the need for redundant data transfers between the client and server, leading to lower bandwidth consumption and cost savings, especially in regions with limited internet access or expensive data plans.
+  \item By leveraging caching strategies such as prefetching, preloading, and cache priming, web developers can further optimize performance and deliver a seamless browsing experience to users.
+\end{itemize}
+
+\section{offline mode}
+\label{sec:orgf3b3b3b}
+The offline mode is a feature that allows users to access web applications and content without an active internet connection. By caching resources locally, web applications can continue to function even when the device is offline or experiencing network disruptions. This feature is particularly useful for users in areas with limited internet access or unreliable network connections, as it ensures that they can still access content and perform essential tasks without interruption.
+
+\subsection{steps for an offline mode}
+\label{sec:orgf3b3b4b}
+
+\begin{itemize}
+  \item Registering Service Workers: Developers register service workers in the web application's code, typically in the main JavaScript file. This registration process establishes the service worker as a background process that can intercept network requests and manage caching.
+
+  \item Caching Strategies: Developers define caching strategies within the service worker to determine which resources should be cached and how they should be managed. Strategies may include caching essential assets for offline access, dynamically updating the cache with new content, and handling cache expiration and invalidation.
+
+  \item Offline Fallbacks: Developers create offline fallbacks to provide a graceful user experience when the network is unavailable. This may involve displaying cached content, providing offline messaging or notifications, and enabling users to interact with locally stored data until connectivity is restored.
+
+  \item Syncing Data: For applications that require data synchronization between the client and server, developers implement background sync functionality using service workers. This allows the application to queue user actions and synchronize data with the server when the network becomes available again.
+\end{itemize}
+
+
+
+
+\end{document}

@@ -1,0 +1,87 @@
+
+\documentclass[12pt,a4paper, twosite]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{grffile}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{textcomp}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\usepackage[left=2.00cm, right=2.50cm, top=2.50cm, bottom=2.00cm]{geometry}
+\usepackage{fancyhdr}
+\fancyhead[RO,LE]{\thepage}
+\fancyhead[LO]{\emph{\uppercase{\leftmark}}}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{1.0pt}
+\pagestyle{fancy}
+\date{March 15, 2024.}
+\title{Cache in Pwa, Is important? and what is it strategies}
+
+\hypersetup{
+ pdfauthor={Velazquez Gonzalez Jesus Alejandro},
+ pdftitle={Cache in Pwa},
+ pdfkeywords={},
+ pdfsubject={}
+ pdfcreator={Emacs 26.2 (Org mode 9.1.9)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+
+\newpage
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\label{sec:org60390fa}
+
+In this document we will talk about for the important of the cache in the PWA, and how the service worker is used to cache resources and provide offline support.
+
+\subsection{Purpose}
+\label{sec:org434c3ef}
+
+The purpose of this document is to provide a detailed description of the cache and how can use it in a PWA and it strategy to improve the performance of the web application.
+
+\subsection{References}
+\label{sec:org62711e0}
+
+\begin{thebibliography}
+{9}
+
+\bibitem{Caching - Progressive web apps} MDN (2023, October 25) MDN Web Docs.  \url{https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Caching}
+
+\bibitem{SYNDICODE Marketing.} SYNDICODE Marketing. (2022, November 24)Caching strategies for PWA. Choosing the right strategy is important. Syndicode - Custom Software Development Company. \url{https://syndicode.com/blog/caching-strategies-for-pwa/}
+
+
+\end{thebibliography}
+
+
+\section{Cache}
+\label{sec:orgc1c4017}
+The cache is features of a PWA is the ability to explicitly cache some of the app's resources so that they can be used offline. This is done using the service worker, which is a script that runs in the background of the web application, separate from the main thread. The service worker can intercept network requests and cache the responses, allowing the web application to work offline or in low-quality networks.
+
+\subsection{functionabiliry}
+\label{sec:org24980a8}
+It cab use for offline Operation, it caching enables in a Pwa to fucntions to a greater or lesser extent while the device does not have an internet connection. This is done by caching the resources that the web application needs to work, such as HTML, CSS, JavaScript, and images, and serving them from the cache when the network is not available.
+
+\subsection{Strategies}
+\label{sec:org2498090}
+
+\begin{itemize}
+  \item cache Online: It return a resorce from the cache without making a network request, if the resource is not in the cache, it will make a network request to fetch it. this strategy works for serviving assets pre-cached for the installation of a service.
+  \item network only : It need a network to get a resorc. Good if stale or cached version is unacceptable.
+  \item cache first: It return a resource from the cache without making a network request, if the resource is not in the cache, it will make a network request to fetch it. this strategy works for serviving assets pre-cached for the installation of a service.
+  \item network first: It return a resource from the network without making a cache request, if the resource is not in the network, it will make a cache request to fetch it. this strategy works for serviving assets pre-cached for the installation of a service.
+  \item Stale while revalidate: It return a resource from the cache without making a network request, if the resource is not in the cache, it will make a network request to fetch it. this strategy works for serviving assets pre-cached for the installation of a service.
+\end{itemize}
+
+
+
+\end{document}
